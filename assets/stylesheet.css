@@ -1,0 +1,23 @@
+body {
+	background-color: aqua;
+color: black;
+}
+#topnavmenu {
+	background-color: blue;
+	width: 100%;
+	height: 60px;
+	color: red;
+ul li{display: inline;}
+}
+.navmenu {
+	a {
+		display: inline-block;
+
+	}
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	ul { 
+		display: inline-block;
+	}
+}
