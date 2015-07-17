@@ -7,7 +7,6 @@ color: black;
 	width: 100%;
 	height: 60px;
 	color: red;
-ul li{display: inline;}
 }
 .navmenu {
 	a {
@@ -20,4 +19,4 @@ ul li{display: inline;}
 	ul { 
 		display: inline-block;
 	}
-}
+.navbar-bottom{background-color:#f8f8f8;border-color:#e7e7e7}.navbar-bottom .navbar-brand{color:#777}.navbar-bottom .navbar-brand:focus,.navbar-bottom .navbar-brand:hover{color:#5e5e5e;background-color:transparent}.navbar-bottom .navbar-text{color:#777}.navbar-bottom .navbar-nav>li>a{color:#777}.navbar-bottom .navbar-nav>li>a:focus,.navbar-bottom .navbar-nav>li>a:hover{color:#333;background-color:transparent}.navbar-bottom .navbar-nav>.active>a,.navbar-bottom .navbar-nav>.active>a:focus,.navbar-bottom .navbar-nav>.active>a:hover{color:#555;background-color:#e7e7e7}.navbar-bottom .navbar-nav>.disabled>a,.navbar-bottom .navbar-nav>.disabled>a:focus,.navbar-bottom .navbar-nav>.disabled>a:hover{color:#ccc;background-color:transparent}.navbar-bottom .navbar-toggle{border-color:#ddd}.navbar-bottom .navbar-toggle:focus,.navbar-bottom .navbar-toggle:hover{background-color:#ddd}.navbar-bottom .navbar-toggle .icon-bar{background-color:#888}.navbar-bottom .navbar-collapse,.navbar-bottom .navbar-form{border-color:#e7e7e7}.navbar-bottom .navbar-nav>.open>a,.navbar-bottom .navbar-nav>.open>a:focus,.navbar-bottom .navbar-nav>.open>a:hover{color:#555;background-color:#e7e7e7}@media (max-width:767px){.navbar-bottom .navbar-nav .open .dropdown-menu>li>a{color:#777}.navbar-bottom .navbar-nav .open .dropdown-menu>li>a:focus,.navbar-bottom .navbar-nav .open .dropdown-menu>li>a:hover{color:#333;background-color:transparent}.navbar-bottom .navbar-nav .open .dropdown-menu>.active>a,.navbar-bottom .navbar-nav .open .dropdown-menu>.active>a:focus,.navbar-bottom .navbar-nav .open .dropdown-menu>.active>a:hover{color:#555;background-color:#e7e7e7}.navbar-bottom .navbar-nav .open .dropdown-menu>.disabled>a,.navbar-bottom .navbar-nav .open .dropdown-menu>.disabled>a:focus,.navbar-bottom .navbar-nav .open .dropdown-menu>.disabled>a:hover{color:#ccc;background-color:transparent}}.navbar-bottom .navbar-link{color:#777}.navbar-bottom .navbar-link:hover{color:#333}.navbar-bottom .btn-link{color:#777}.navbar-bottom .btn-link:focus,.navbar-bottom .btn-link:hover{color:#333}.navbar-bottom .btn-link[disabled]:focus,.navbar-bottom .btn-link[disabled]:hover,fieldset[disabled] .navbar-bottom .btn-link:focus,fieldset[disabled] .navbar-bottom .btn-link:hover{color:#ccc}
