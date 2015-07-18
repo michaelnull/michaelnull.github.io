@@ -1,23 +1,14 @@
 .pageHeader
 {   
-    color: black;
 	background-image: url("./wave.jpg");
+    color: black;
     background-size: cover;
     background-position: center;
     height: 40em;
     text-align: center;
-    background-color: rgba(0,0,100,.5);
- 
-       
-      
 }
-.top-navbar li{
-    color: black;
-    text-decoration-color: none;
-   
-}
-.text-white{
-    color: white;
+.container-fluid {
+    background-image:inherit;
 }
 .pageHeader h1{
     color: white;
