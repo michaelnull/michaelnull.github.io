@@ -31,6 +31,7 @@ h1{
 }
 #main-text{
     padding: 4em 14em 4em 14em;
+   
 }
 #sidebar{
     padding: 2em;
@@ -41,6 +42,8 @@ h1{
 #popular-posts{
     text-align:center;
     height: auto;
+    border-top: solid;
+    border-color: lightblue;
 }
 #post1{
     background-image: url("assets/surfboarddude.jpg");
@@ -121,3 +124,4 @@ h1{
     text-align: center;
     border-color: lightblue;
 }
+
