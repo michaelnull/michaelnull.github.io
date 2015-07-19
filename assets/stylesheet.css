@@ -59,7 +59,9 @@ a{
     background-position: center;
 }
 .post-4{
-    background-color: coral;
+    background-image: url("../assets/bottles.jpg");
+    background-size: cover;
+    background-position: center;
 }
 .navbar-default{
     background-color: transparent;
