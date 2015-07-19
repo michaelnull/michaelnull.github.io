@@ -12,3 +12,65 @@
  	list-style-type: none;
  	margin: 2em;
  }
+ #top-banner{
+     margin-top: 0em;
+     height:40em;
+     text-align:center;
+     background-image: url("assets/wave.jpg");
+     background-size:cover;
+     background-position:center;
+ }
+ #top-banner.h1{
+     vertical-align:middle;
+ }
+ #top-navbar{
+     margin-top:0;
+     background-image:inherit;
+ }
+#headline{
+  padding: 18em 0em 18em 0em;
+}
+#sidebar img{
+    width: 100%;
+}
+#popular-posts{
+    text-align:center;
+    height: auto;
+}
+#post1{
+    background-image: url("assets/surfboarddude.jpg");
+    background-size: cover;
+    background-position:center;
+    height:20em;
+}
+#post2{
+    background-image:url("assets/beer.jpg");
+    background-size: cover;
+    background-position:center;
+     height:20em;
+}
+#post3{
+    background-image:url(assets/zachgalifanakis.jpg);
+    background-size: cover;
+    background-position:center;
+     height:20em;
+}
+#post4{
+    background-image:url("assets/bottles.jpg");
+    background-size: cover;
+    background-position:center;
+     height:20em;
+}
+#bottom-navbar{
+    clear:both;
+     background-color:black;
+    color: white;
+
+}
+#copyright img{
+    height: 4em;
+}
+#bottom-right-nav{
+    padding: 2em;
+   
+}
