@@ -40,3 +40,30 @@ a{
 .top-navbar{
     padding:2em
 }
+.post{
+    height: 20em;
+}
+.post-1{
+    background-image: url("../assets/surfboarddude.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.post-2{
+    background-image: url("../assets/beer.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.post-3{
+    background-image: url("../assets/zachgalifanakis.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.post-4{
+    background-color: coral;
+}
+.navbar-default{
+    background-color: transparent;
+}
+.top-navbar a{
+    color: black;
+}

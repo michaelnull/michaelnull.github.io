@@ -15,20 +15,26 @@
 			<!--nav bar with links on the right-->
        
 
-        <nav>
-            <div class="top-navbar">
-                <div>
+        <nav class="navbar-default top-navbar">
+            <div class="container-fluid">
+                 <!-- Brand and toggle get grouped for better mobile display -->
+                 <div class="navbar-header">
                     <a id="blog" class="pull-left" href=" #"><strong>SURF & PADDLE BLOG</strong></a>
-                    <ul class="top-right pull-right">
-                        <li>
-                            <a href="#"><strong>About</strong></a>
-                        </li>
-                        <li>
-                            <a href="http://www.google.com"><strong>SEARCH</strong></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                        </div>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1 pull-right">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="#">About</a></li>
+                                <li><a href="http://www.google.com">Search</a></li>
+                            </ul>
+                        </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
         </nav>
 
 
@@ -58,7 +64,7 @@
   
 	<!--end of header section-->
 	<!--main text in left two thirds of page-->
-	<article id="main article" class="col-sm-8 col-md-8 col-md-8">
+	<article id="main article" class="col-sm-12 col-md-6 col-lg-8">
 		<h2>A FANTASTIC ENGAGING HEADLINE GOES HERE
 		</h2>
 		<div id="by-line">
@@ -73,7 +79,7 @@
 	</article>
 	<!--end of main text section-->
 	<!--right side sidebar text and pictures-->
-	<article id"sidebar" class="col-sm-4 col-md-4 col-lg-4">
+	<article id"sidebar" class="col-sm-12 col-md-6 col-lg-4">
 	<!--round author picture-->
 		<h4 id="author name">ANNE MARIE</h4>
 		<ul id="social media share menu">
@@ -92,16 +98,16 @@
 	<!--popular posts with four pictures across the bottom-->
 		<h1 id="bottom headline">MOST POPULAR POSTS</h1>
 	
-		<div class="col-sm-3 col-md-3 col-lg-3">
+		<div class="col-sm-12 col-md-6 col-lg-3 post post-1">
 			<h3>ANOTHER COOL POST</h3>
 		</div>
-		<div class="col-sm-3 col-md-3 col-lg-3">
+		<div class="col-sm-12 col-md-6 col-lg-3 post post-2">
 			<h3>POST TITLE</h3>
 		</div>
-		<div class="col-sm-3 col-md-3 col-lg-3">
+		<div class="col-sm-12 col-md-6 col-lg-3 post post-3">
 			<h3>HERE'S ANOTHER LONGER POST TITLE</h3>
 		</div>
-		<div class="col-sm-3n col-md-3 col-lg-3">
+		<div class="col-sm-12 col-md-6 col-lg-3 post post-4">
 			<h3>OH, A COOL POST!</h3>
 		</div>
 	</div>
@@ -117,7 +123,7 @@
         			<span class="icon-bar"></span>
        			 	<span class="icon-bar"></span>
       			</button>
-      			<a class="navbar-brand" href="#">Copyright 2013 The Ironyard. All Rights Reserved</a>
+      			<a class="navbar-brand" href="#"><img src="assets/iron-yard-logo.svg"/>Copyright 2013 The Ironyard. All Rights Reserved</a>
     		</div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
