@@ -1,3 +1,12 @@
+.bottom-navbar{
+    background-color: #213138;
+    color: white;
+    height: 4em;
+    width: 100%;
+    position: relative;
+    bottom: 1px;
+    
+}
 .pageHeader
 {   
 	background-image: url("./wave.jpg");
@@ -69,3 +78,23 @@ a{
 .top-navbar a{
     color: black;
 }
+.ironyardlogo{
+    height: 4em;
+    width: 5em;
+    background-image: url("../assets/tiy-standard-logo.png");
+    background-size: cover;
+    background-position: center;
+
+}
+.navbar-brand{
+    font-size: 0.5em;
+}
+article{
+    margin-bottom:auto;
+    margin-top:auto;
+}
+
+
+
+
+
