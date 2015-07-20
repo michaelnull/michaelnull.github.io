@@ -24,14 +24,21 @@
             <nav id="top-navbar">
                 <!--top navbar section-->
                 <!--right side links-->
-                <ul class="pull-right">
+                <ul class="pull-right hide-when-small">
                     <li><a href="#">ABOUT</a></li>
                     <li><a href="http://www.google.com">SEARCH<span class="glyphicon glyphicon-search"></span></a><!--search glyph--></li>
                 </ul>
-                <div class="pull-left">
+                <ul class="hide-when-large">
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="http://www.google.com">SEARCH<span class="glyphicon glyphicon-search"></span></a><!--search glyph--></li>
+                </ul>
+                <div class="pull-left hide-when-small">
                     <!--left side blog link-->
                     <!--wave logo-->
-                    <a href="http://mknull.wordpress.com"><img src="assets/wave-icon.png" />SURF & PADDLE CO. BLOG<!--Surf & Paddle Co. Blog--></a>
+                    <a href="http://mknull.wordpress.com"><img src="assets/wave-icon.png"/>SURF & PADDLE CO. BLOG<!--Surf & Paddle Co. Blog--></a>
+                </div>
+                <div class="hide-when-large">
+                    <a href="http://mknull.wordpress.com"><img src="assets/wave-icon.png"/></a>
                 </div>
             </nav><!-- end top navbar section-->
             <div id="headline">
@@ -40,6 +47,7 @@
             </div>
         </div>
     </div><!--end top banner section-->
+
     <div id="main-text"><!--main text section-->
         <article class="col-sm-12 col-md-6 col-lg-8">
             <h1>A FANTASTIC ENGAGING HEADLINE GOES HERE</h1>
@@ -57,15 +65,29 @@
             <p>Morbi posuere metus sit amet dapibus rhoncus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris vitae quam at turpis scelerisque pretium. Aliquam sit amet consectetur odio. Quisque at metus porta, imperdiet ex ultricies, luctus nisi. Etiam scelerisque ligula a venenatis blandit. Nulla scelerisque elit sed est vehicula, eu pellentesque nibh pulvinar. Sed egestas arcu laoreet, aliquet arcu fringilla, egestas urna. In vestibulum est quis viverra aliquet. Nulla sit amet commodo felis. Suspendisse at venenatis dolor, ut molestie neque. Praesent congue fringilla nisl, ac dapibus justo tincidunt eu. Donec condimentum fringilla mi, pharetra vestibulum odio pulvinar ac. Vestibulum dictum auctor velit, vel malesuada dolor sagittis sit amet. Morbi sed urna a nulla sagittis vulputate.</p>
             <p>Duis nec dolor vitae odio elementum mattis. <a href="https://en.wikipedia.org/wiki/Lorem_ipsum">In ipsum felis</a>, dignissim euismod cursus et, vulputate non ipsum. In quis imperdiet nibh. Pellentesque ornare auctor dui non suscipit. Nam vel pharetra velit. Vivamus mattis ipsum a aliquet aliquet. Pellentesque tincidunt tristique dignissim. Donec dui ligula, accumsan vitae magna sit amet, elementum maximus lorem. Nulla ultricies arcu nec odio mattis euismod. Donec ac convallis nibh, in ultrices mauris. Nulla vel libero eu ante laoreet ullamcorper. Aenean auctor tincidunt neque a bibendum. Cras pretium nunc dictum nibh aliquam, id sollicitudin ante venenatis. Integer fringilla ex nec ipsum dignissim, a varius est eleifend. Cras fringilla neque in felis finibus, non pellentesque arcu commodo. Vivamus volutpat vestibulum dolor, sodales blandit nunc molestie ac.</p>
         <!--main article social media links-->
-            <button type="button" class="btn btn-primary btn-lg">
-                <span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span> Read Comments
-            </button>
-            <button type="button" class="btn btn-primary btn-lg">
-                 <span class="glyphicon glyphicon-cloud-upload" aria-hidden="true"></span> Read Later
-            </button>
-            <button type="button" class="btn btn-primary btn-lg">
-                <span class="glyphicon glyphicon-share" aria-hidden="true"></span> Share This Post
-            </button>
+            <div class="hide-when-small">
+                <button type="button" class="btn btn-primary btn-lg">
+                    <span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span> Read Comments
+                </button>
+                <button type="button" class="btn btn-primary btn-lg">
+                    <span class="glyphicon glyphicon-cloud-upload" aria-hidden="true"></span> Read Later
+                </button>
+                <button type="button" class="btn btn-primary btn-lg">
+                    <span class="glyphicon glyphicon-share" aria-hidden="true"></span> Share This Post
+                </button>
+            </div>
+                
+            <div class="hide-when-large">
+                <button type="button" class="btn btn-primary btn-sm">
+                    <span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span>
+                </button>
+                <button type="button" class="btn btn-primary btn-sm">
+                    <span class="glyphicon glyphicon-cloud-upload" aria-hidden="true"></span>
+                </button>
+                <button type="button" class="btn btn-primary btn-sm">
+                    <span class="glyphicon glyphicon-share" aria-hidden="true"></span>
+                </button>
+            </div>
       </article><!--end main article-->
       <div id="sidebar" class="col-sm-12 col-md-6 col-lg-4">
           <div id="author-info">
