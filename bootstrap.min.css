@@ -81,6 +81,9 @@ li{
      border-color: lightblue;
      margin: 2em 2em 0em 2em;
  }
+ #popular-posts div{
+    padding: 0px;
+ }
  #post1{
      background-image: url("assets/surfboarddude.jpg");
      background-size: cover;
