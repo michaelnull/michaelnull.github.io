@@ -133,6 +133,7 @@
     <Content Include="Content\forkandfarmscreenshot.PNG" />
     <Content Include="Content\GitHub-Mark-32px.png" />
     <Content Include="Content\GitHub-Mark-64px.png" />
+    <Content Include="Content\GitHub-Mark-Light-32px.png" />
     <Content Include="Content\linkedinprofile.jpg" />
     <Content Include="Content\one-page-wonder.css" />
     <Content Include="Content\pickme.PNG" />
